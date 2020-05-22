@@ -2331,23 +2331,6 @@ chennai_merged.loc[chennai_merged['Cluster Labels'] == 1, chennai_merged.columns
 chennai_merged.loc[chennai_merged['Cluster Labels'] == 2, chennai_merged.columns[[0] + list(range(4, chennai_merged.shape[1]))]]
 ```
 
-
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -2555,7 +2538,7 @@ chennai_venues['Venue Category'].value_counts()
 
 
 
-The sheer number of restaurants probably skew the results. There might be two reaons for this: 
+The sheer number of restaurants probably skew the results. There might be two reasons for this: 
 * Foursquare data predominantly contains restaurant data.
 * There are way too many restaurants in Chennai.
 
